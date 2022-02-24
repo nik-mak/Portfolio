@@ -6,12 +6,12 @@
 }
 
 html {
-    background: url(../images/beach.jpg) no-repeat center fixed;
+    background: url(../images/beach.jpg) no-repeat center fixed; 
     background-size: cover;
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,16 +45,14 @@ nav ul li a:hover {
     color: #4debca ;
 }
 
-/* Title Text */
+/* Hero Text */
 
 main {
     display: flex;
     flex-direction: column;
-    padding-top: 250px;
+    padding-top: 30vh;
     text-align: center;
     color: #fff;
-    
-    
 }
 
 main h1 {
@@ -66,13 +64,35 @@ main h1 {
     letter-spacing: 5px;
 }
 
-main h3 {
+main h2 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     padding-top: 30px;
     font-weight: initial;
     font-size: 20px;
+}
+
+main nav {
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: initial;
+    font-size: 20px;
+}
+
+main nav p {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+main nav p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main nav p a:hover {
+    color: #4debca ;
 }
 
 /* Footer */
@@ -83,10 +103,11 @@ footer {
 
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #000;
     align-self: flex-end;
+    gap: 40px;
 }
 
 footer ul li {
@@ -101,4 +122,20 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #4debca;
+}
+
+/* Media Query for iPad */
+
+@media only screen and (min-width: 750px) {
+    main h1 {
+        font-size: 60px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    main p {
+        font-size: 24px;
+    }
 }
