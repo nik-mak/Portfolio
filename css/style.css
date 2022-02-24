@@ -2,9 +2,102 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Avenir';
 }
 
 html {
     background: url(../images/beach.jpg) no-repeat center fixed;
     background-size: cover;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font: 12px 'Avenir-heavy';
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background-color: #292929; 
+}
+
+nav ul li {
+    display: flex;
+    padding: 8px 2px;
+    line-height: 32px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #4debca ;
+}
+
+/* Title Text */
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: initial;
+    letter-spacing: 5px;
+}
+
+main h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: initial;
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000;
+    align-self: flex-end;
+}
+
+footer ul li {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #4debca;
 }
