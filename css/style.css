@@ -14,8 +14,6 @@ html {
 body {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Navigation Bar */
@@ -48,7 +46,7 @@ nav ul li a:hover {
 
 /* Hero Text */
 
-main {
+.hero-header {
     display: flex;
     flex-direction: column;
     padding-top: 30vh;
@@ -56,7 +54,7 @@ main {
     color: #fff;
 }
 
-main h1 {
+.hero-header h1 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -65,7 +63,7 @@ main h1 {
     letter-spacing: 5px;
 }
 
-main h2 {
+.hero-header h2 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -74,25 +72,25 @@ main h2 {
     font-size: 20px;
 }
 
-main nav {
+.hero-header nav {
     text-transform: uppercase;
     padding-top: 30px;
     font-weight: initial;
     font-size: 20px;
 }
 
-main nav p {
+.hero-header nav p {
     display: flex;
     justify-content: center;
     line-height: 1.5;
 }
 
-main nav p a {
+.hero-header nav p a {
     color: #fff;
     text-decoration: none;
 }
 
-main nav p a:hover {
+.hero-header nav p a:hover {
     color: #4debca ;
 }
 
@@ -128,10 +126,7 @@ main nav p a:hover {
 }
 
 .edu {
-    justify-content: center;
-    display: flex;
-    padding: 10%;
-    flex-wrap: wrap;
+    padding: 50px 20px 30px;
 }
 
 .edu-logo {
@@ -143,6 +138,7 @@ main nav p a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 20px;
 }
 
 .width {
@@ -184,19 +180,26 @@ footer ul li a:hover {
 /* Media Query for iPad */
 
 @media only screen and (min-width: 750px) {
-    main h1 {
+    .hero-header h1 {
         font-size: 60px;
     }
 
-    main h2 {
+    .hero-header h2 {
         font-size: 26px;
     }
 
-    main p {
+    .hero-header p {
         font-size: 24px;
     }
 
     .profile-pic {
         padding: 0;
+    }
+
+    .edu-work {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 100px 0px;
     }
 }
