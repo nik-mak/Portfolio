@@ -8,6 +8,7 @@
 html {
     background: url(../images/beach.jpg) no-repeat center fixed; 
     background-size: cover;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -95,6 +96,62 @@ main nav p a:hover {
     color: #4debca ;
 }
 
+/* About Me */
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    padding: 10%;
+    background-color: #292929;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-pic {
+    display: inline-block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+.about-me p {
+    margin-top: 10%;
+    line-height: 2;
+}
+
+/* Education */
+
+.edu-work {
+    background-color: rgb(231, 231, 231);
+}
+
+.edu {
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+    flex-wrap: wrap;
+}
+
+.edu-logo {
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+.edu-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.width {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 
 footer {
@@ -137,5 +194,9 @@ footer ul li a:hover {
 
     main p {
         font-size: 24px;
+    }
+
+    .profile-pic {
+        padding: 0;
     }
 }
