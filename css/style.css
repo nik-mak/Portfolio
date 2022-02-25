@@ -14,6 +14,8 @@ html {
 body {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation Bar */
@@ -27,6 +29,8 @@ nav ul {
     letter-spacing: 2.5px;
     text-transform: uppercase;
     background-color: #292929; 
+    position: fixed;
+    width: 100%;
 }
 
 nav ul li {
@@ -99,7 +103,7 @@ nav ul li a:hover {
 .about-me {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 400px;
     padding: 10%;
     background-color: #292929;
     text-align: center;
@@ -108,10 +112,11 @@ nav ul li a:hover {
 
 .profile-pic {
     display: inline-block;
-    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 .about-me p {
@@ -119,33 +124,60 @@ nav ul li a:hover {
     line-height: 2;
 }
 
-/* Education */
+/* Education & Experience */
 
 .edu-work {
     background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
 }
 
-.edu {
-    padding: 50px 20px 30px;
+.about {
+    padding: 30px 20px 30px;
 }
 
-.edu-logo {
+.about-logo {
     max-width: 70px;
     border-radius: 50%;
 }
 
-.edu-content {
+.about-content {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 20px;
 }
 
-.width {
+.about-img {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.edu-work h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0px;
+    text-transform: uppercase;
+    font-weight: initial;
+}
+
+.edu-work .btn {
+    color: #292929;
+    font-size: 20px;
+    border: solid #292929;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 12px 24px;
+    text-align: center;
+    margin: 0 120px 30px;
+}
+
+.edu-work .btn:hover {
+    background: #fff;
+    color: #1d1d1d;
+    border: solid #fff;
 }
 
 /* Footer */
@@ -198,8 +230,22 @@ footer ul li a:hover {
 
     .edu-work {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 35px;
+    }
+
+    .about {
+        width: calc(100% / 3);
+    }
+
+    .edu-work h2 {
         width: 100%;
-        padding: 100px 0px;
+        text-align: center;
+    }
+
+    .edu-work .btn {
+        margin-top: 30px;
     }
 }
