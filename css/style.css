@@ -180,6 +180,53 @@ nav ul li a:hover {
     border: solid #fff;
 }
 
+/* Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 508px;
+    padding: 10%;
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+}
+
+.project-logo {
+    max-width: 150px;
+}
+
+.project-text {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.project-text h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.project-text p {
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.project-text .btn {
+    color: #fff;
+    font-size: 20px;
+    border: solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 4px 18px;
+    text-align: center;
+}
+
+.project-text .btn:hover {
+    background: #fff;
+    color: #1d1d1d;
+    border: solid #fff;
+}
+
 /* Footer */
 
 footer {
@@ -209,7 +256,7 @@ footer ul li a:hover {
     color: #4debca;
 }
 
-/* Media Query for iPad */
+/* Media Query for 750-1100px */
 
 @media only screen and (min-width: 750px) {
     .hero-header h1 {
@@ -223,6 +270,8 @@ footer ul li a:hover {
     .hero-header p {
         font-size: 24px;
     }
+
+    /* About Me */
 
     .profile-pic {
         padding: 0;
@@ -247,5 +296,46 @@ footer ul li a:hover {
 
     .edu-work .btn {
         margin-top: 30px;
+    }
+
+    /* Projects */
+
+    .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project-content {
+        display: flex;
+        width: 90%;
+    }
+
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-text {
+        padding: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .project-content {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-me {
+        margin-top: 300px;
+    }
+
+    .projects {
+        margin-top: 270px;
     }
 }
