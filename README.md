@@ -16,21 +16,21 @@ Functionality/Features:
 - Responsive layout so that all elements are appropriately displayed no matter the device.
 
 Wireframes:
-![Homepage](./images/wireframes/homepage.png)
-![About](./images/wireframes/about.png)
-![Projects](./images/wireframes/projects.png)
-![Contact](./images/wireframes/contact.png)
+![Homepage](./docs/wireframes/homepage.png)
+![About](./docs/wireframes/about.png)
+![Projects](./docs/wireframes/projects.png)
+![Contact](./docs/wireframes/contact.png)
 
 Screenshots:
-![Homepage](./images/screeshots/homepage.png)
-![About](./images/screenshots/about.png)
-![Sticky-Navbar](./images/screenshots/about-nav.png)
-![About-Hover](./images/screenshots/about-nav-hover.png)
-![Projects](./images/screenshots/projects-hover.png)
-![Projects-Tablet](./images/screenshots/projects-tablet.png)
-![Projects-Mobile](./images/screenshots/projects-mobile.png)
-![Contact](./images/screenshots/contact-hover.png)
-![Contact-Email](./images/screenshots/contact-email.png)
+![Homepage](./docs/screenshots/homepage.png)
+![About](./docs/screenshots/about.png)
+![Sticky-Navbar](./docs/screenshots/about-nav.png)
+![About-Hover](./docs/screenshots/about-nav-hover.png)
+![Projects](./docs/screenshots/projects-hover.png)
+![Projects-Tablet](./docs/screenshots/projects-tablet.png)
+![Projects-Mobile](./docs/screenshots/projects-mobile.png)
+![Contact](./docs/screenshots/contact-hover.png)
+![Contact-Email](./docs/screenshots/contact-email.png)
 
 Target Audience:
 An employer looking to engage a dev and/or IT professional. 
