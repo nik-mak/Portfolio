@@ -30,7 +30,7 @@ Screenshots:
 ![Projects-Tablet](./images/screenshots/projects-tablet.png)
 ![Projects-Mobile](./images/screenshots/projects-mobile.png)
 ![Contact](./images/screenshots/contact-hover.png)
-![Contact-Email](./images/screenshots/contact-email.pmg)
+![Contact-Email](./images/screenshots/contact-email.png)
 
 Target Audience:
 An employer looking to engage a dev and/or IT professional. 
