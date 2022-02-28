@@ -92,7 +92,7 @@ nav ul li a:hover {
 /* Homepage */
 
 .background-img {
-    background: url(../images/beach.jpg) no-repeat center fixed; 
+    background: url(../../docs/images/beach.jpg) no-repeat center fixed; 
     background-size: cover;
     height: 100vh;
     scroll-behavior: smooth;
