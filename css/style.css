@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Navigation Bar */
@@ -60,8 +61,6 @@ nav ul li a:hover {
 }
 
 .hero-header h2 {
-    display: flex;
-    justify-content: center;
     text-transform: uppercase;
     padding-top: 30px;
     font-weight: initial;
@@ -205,8 +204,6 @@ nav ul li a:hover {
     text-align: center;
 }
 
-
-
 .project-logo {
     max-width: 150px;
 }
@@ -264,6 +261,19 @@ nav ul li a:hover {
     height: 60vh;
     justify-content: space-around;
     align-items: center;
+}
+
+.contact ul li i { 
+    padding-right: 20px;
+}
+
+.contact ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: #4debca;
 }
 
 /* Footer */
