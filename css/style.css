@@ -103,7 +103,7 @@ nav ul li a:hover {
     scroll-behavior: smooth;
 }
 
-/* About Me */
+/* About Me Page*/
 
 .page-title {
     font-size: 48px;
@@ -116,7 +116,7 @@ nav ul li a:hover {
 .about-me {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 100px 10% 10%;
     background-color: #292929;
     text-align: center;
     color: #fff;
@@ -193,16 +193,18 @@ nav ul li a:hover {
     border: solid #fff;
 }
 
-/* Projects */
+/* Projects Page */
 
 .projects {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 100px 10% 10%;
     background-color: #292929;
     color: #fff;
     text-align: center;
 }
+
+
 
 .project-logo {
     max-width: 150px;
@@ -237,6 +239,30 @@ nav ul li a:hover {
     background: #fff;
     color: #1d1d1d;
     border: solid #fff;
+}
+
+/* Contact Page */
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 10% 10%;
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+}
+
+.contact p {
+    padding-bottom: 30px;
+}
+
+.contact ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Footer */
