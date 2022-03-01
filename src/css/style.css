@@ -207,7 +207,7 @@ nav ul li a:hover {
 .project-content {
     border: solid #6e6e6e 1px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 30px;
 }
 
@@ -370,7 +370,6 @@ footer ul li a:hover {
 
     .project-content {
         display: flex;
-        /* max-width: 45%; */
     }
 
     .project-img {
@@ -390,4 +389,5 @@ footer ul li a:hover {
     .project-content {
         max-width: 45%;
     }
+    
 }
