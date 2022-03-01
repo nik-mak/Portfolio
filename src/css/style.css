@@ -204,6 +204,13 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.project-content {
+    border: solid #6e6e6e 1px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
 .project-logo {
     max-width: 150px;
 }
@@ -221,6 +228,7 @@ nav ul li a:hover {
 .project-text p {
     padding-bottom: 30px;
     text-align: justify;
+    font-size: 14px;
 }
 
 .project-date {
@@ -362,7 +370,7 @@ footer ul li a:hover {
 
     .project-content {
         display: flex;
-        width: 90%;
+        /* max-width: 45%; */
     }
 
     .project-img {
@@ -378,7 +386,8 @@ footer ul li a:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+
     .project-content {
-        width: 50%;
+        max-width: 45%;
     }
 }
