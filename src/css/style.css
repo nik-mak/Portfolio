@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Avenir';
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ nav ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    font: 12px 'Avenir-heavy';
+    font: 12px heavy;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     background-color: #292929; 
@@ -221,6 +221,10 @@ nav ul li a:hover {
 .project-text p {
     padding-bottom: 30px;
     text-align: justify;
+}
+
+.project-date {
+    color: #6e6e6e;
 }
 
 .project-text .btn {
