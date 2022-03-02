@@ -11,7 +11,9 @@ body {
     min-height: 100vh;
 }
 
+/* --------------- */
 /* Navigation Bar */
+/* --------------- */
 
 nav ul {
     display: flex;
@@ -161,7 +163,9 @@ nav ul li a:hover {
     border: solid #fff;
 }
 
+/* --------------- */
 /* Projects Page */
+/* --------------- */
 
 .projects {
     padding: 100px 5% 5%;
@@ -216,7 +220,10 @@ nav ul li a:hover {
     border: solid #fff;
 }
 
+/* --------------- */
 /* Contact Page */
+/* --------------- */
+
 .contact {
     padding: 100px 10% 10%;
     background-color: #292929;
@@ -250,7 +257,9 @@ nav ul li a:hover {
     color: #4debca;
 }
 
+/* --------------- */
 /* Footer */
+/* --------------- */
 
 footer {
     margin-top: auto;
@@ -279,7 +288,9 @@ footer ul li a:hover {
     color: #4debca;
 }
 
+/* --------------- */
 /* Media Query for 750-1100px */
+/* --------------- */
 
 @media only screen and (min-width: 750px) {
     .hero-header h1 {
@@ -321,8 +332,10 @@ footer ul li a:hover {
         margin-top: 30px;
     }
 
+    /* --------------- */
     /* Projects */
-
+    /* --------------- */
+    
     .projects {
         display: flex;
         flex-direction: row;
