@@ -1,8 +1,8 @@
 # Portfolio - T1A2
 
-## Site URL: https://nik-mak.netlify.app/
+Site URL: https://nik-mak.netlify.app/
 
-## Github: https://github.com/nik-mak/Portfolio
+Github: https://github.com/nik-mak/Portfolio
 
 ## Purpose:
 This portfolio was made for assessment at Coder Academy using HTML and CSS. May also use it in the future to showcase my skills.
@@ -55,10 +55,10 @@ This portfolio was made for assessment at Coder Academy using HTML and CSS. May 
 ### Contact - Mobile
 ![ContactMobile] (./docs/screenshots/contact-mobile.png)
 
-### Target Audience:
+## Target Audience:
 An employer looking to engage a dev and/or IT professional. 
 
-### Tech Stack:
+## Tech Stack:
 - HTML
 - CSS
 - VS Code
