@@ -231,7 +231,6 @@ nav ul li a:hover {
     background-color: #292929;
     color: #fff;
     text-align: center;
-    height: 100vh;
 }
 
 .contact p {
@@ -242,12 +241,12 @@ nav ul li a:hover {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 70vh;
     justify-content: space-around;
 }
 
 .contact ul li i { 
-    padding-right: 20px;
+    padding: 0px 20px;
 }
 
 .contact ul li a {
