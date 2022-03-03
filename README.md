@@ -5,7 +5,7 @@ Site URL: https://nik-mak.netlify.app/
 Github: https://github.com/nik-mak/Portfolio
 
 ## Purpose:
-This portfolio was made for assessment at Coder Academy using HTML and CSS. May also use it in the future to showcase my skills.
+The purpose of this portfolio is to present my skills as a developer and IT professional and to showcase my skills personality and work.
 
 ## Functionality/Features:
 - The navbar always remains at the top with links to the other pages.
