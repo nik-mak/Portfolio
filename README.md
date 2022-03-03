@@ -36,24 +36,24 @@ This portfolio was made for assessment at Coder Academy using HTML and CSS. May 
 ![Homepage](./docs/screenshots/homepage-computer.png)
 
 ### About
-![About] (./docs/screenshots/about-comp-1.png)
-![About] (./docs/screenshots/about-comp-2.png)
+![About](./docs/screenshots/about-comp-1.png)
+![About](./docs/screenshots/about-comp-2.png)
 
 ### About - Mobile
-![AboutMobile] (./docs/screenshots/about-mobile-1.png)
-![AboutMobile] (./docs/screenshots/about-mobile-4.png)
+![AboutMobile](./docs/screenshots/about-mobile-1.png)
+![AboutMobile](./docs/screenshots/about-mobile-4.png)
 
 ### Projects
-![Projects] (./docs/screenshots/projects-comp-1.png)
+![Projects](./docs/screenshots/projects-comp-1.png)
 
 ### Projects - Mobile
-![ProjectsMobile] (./docs/screenshots/projects-mobile-1.png)
+![ProjectsMobile](./docs/screenshots/projects-mobile-1.png)
 
 ### Contact
-![Contact] (./docs/screenshots/contact-comp.png)
+![Contact](./docs/screenshots/contact-comp.png)
 
 ### Contact - Mobile
-![ContactMobile] (./docs/screenshots/contact-mobile.png)
+![ContactMobile](./docs/screenshots/contact-mobile.png)
 
 ## Target Audience:
 An employer looking to engage a dev and/or IT professional. 
