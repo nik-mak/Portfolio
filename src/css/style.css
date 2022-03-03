@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+header {
+    width: 100%;
+}
+
 /* --------------- */
 /* Navigation Bar */
 /* --------------- */
@@ -306,7 +310,9 @@ footer ul li a:hover {
         font-size: 24px;
     }
 
+    /* --------------- */
     /* About Me */
+    /* --------------- */
 
     .profile-pic {
         padding: 0;
