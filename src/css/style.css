@@ -44,9 +44,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4debca ;
+    color: #00ffef ;
     padding-bottom: 5px;
-    border-bottom: solid 2px #4debca ;
+    border-bottom: solid 2px #00ffef ;
 }
 
 /* --------------- */
@@ -259,7 +259,7 @@ nav ul li a:hover {
 }
 
 .contact ul li a:hover {
-    color: #4debca;
+    color: #00ffef;
 }
 
 /* --------------- */
@@ -290,7 +290,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #4debca;
+    color: #00ffef;
 }
 
 /* --------------- */
