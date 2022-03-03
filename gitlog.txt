@@ -1,3 +1,15 @@
+commit 93b0c054bcca88fc851da350b2847ce88b1e767b
+Author: nik-mak <nick.makrakis@gmail.com>
+Date:   Thu Mar 3 13:06:51 2022 +1100
+
+    fixed typos on readme
+
+commit a99c3d4f3484bf847b80b2d218b3713e554a9e77
+Author: nik-mak <nick.makrakis@gmail.com>
+Date:   Thu Mar 3 13:05:39 2022 +1100
+
+    added gitlog doc
+
 commit 21c4f3c475f421aafefa6d1d7be19d8abd21b927
 Author: nik-mak <nick.makrakis@gmail.com>
 Date:   Thu Mar 3 13:03:27 2022 +1100
