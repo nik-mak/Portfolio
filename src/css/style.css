@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 
 .background-img {
-    background: url(/src/images/beach.jpg) no-repeat center fixed; 
+    background: url(../images/beach.jpg) no-repeat center fixed; 
     background-size: cover;
     height: 100vh;
 }
