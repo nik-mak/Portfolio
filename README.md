@@ -47,7 +47,7 @@ This portfolio was made for assessment at Coder Academy using HTML and CSS. May 
 ![Projects](./docs/screenshots/projects-comp-1.png)
 
 ### Projects - Mobile
-![ProjectsMobile](./docs/screenshots/projects-mobile-1.png)
+![ProjectsMobile](./docs/screenshots/project-mobile-1.png)
 
 ### Contact
 ![Contact](./docs/screenshots/contact-comp.png)
