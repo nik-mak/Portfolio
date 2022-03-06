@@ -41,6 +41,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
@@ -163,6 +164,10 @@ nav ul li a:hover {
     margin: 0 30% 30px;
 }
 
+.btn {
+    transition: 0.3s;
+}
+
 .edu-work .btn:hover {
     background: #fff;
     color: #1d1d1d;
@@ -185,11 +190,13 @@ nav ul li a:hover {
     padding: 20px;
     margin: 20px;
     border-radius: 30px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 6px 0px;
 }
 
 .project-logo {
     width: 150px;
     height: 150px;
+    border-radius: 100%;
 }
 
 .project-text {
